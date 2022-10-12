@@ -19,7 +19,7 @@ const Question = (props) => {
 
     return (
 
-        <div className='p-3 pb-5 my-5 hover:shadow-[5px_5px_60px_8px_rgba(111,255,0,0.2)] rounded-lg '>
+        <div className='p-3 pb-5 my-5 hover:shadow-[5px_5px_60px_8px_rgba(111,255,0,0.2)]  rounded-lg '>
 
             <div className='lg:flex md:flex justify-between w-full'>
                 <p className='lg:text-xl md:text-xl w-12/12 my-2'>{question.replace(/(<([^>]+)>)/ig, '')}</p>

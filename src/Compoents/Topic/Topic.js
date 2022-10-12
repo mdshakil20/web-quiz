@@ -7,7 +7,7 @@ const Topic = (props) => {
     return (
         <div className='border border-green-600 w-56  p-5 mx-auto rounded-lg text-center shadow-[5px_5px_60px_8px_rgba(111,255,0,0.3)]'>
             <img className='' src={logo} alt="" />
-            <h2 className='my-2'>{name}</h2>
+            <h2 className='my-2 text-xl'>{name}</h2>
             <p className='mb-3'>Total Quix: {total}</p>
 
             <Link to={`/quiz/${id}`} className='border border-green-400  rounded-lg  my-5 hover:bg-green-400

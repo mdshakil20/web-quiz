@@ -43,7 +43,8 @@ function App() {
           path: '*',
           element: <div className='text-center'>
             <p className='my-12 text-4xl'>Nothing is found in this router.</p>
-            <Link className='text-link my-24' to='/'>Go to Home</Link>
+            <h1 className='my-12 text-8xl'>404</h1>
+            <Link className='text-link my-24 px-4 border border-green-400 rounded-lg' to='/'>Go to Home</Link>
           </div>
         },
 

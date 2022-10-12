@@ -23,11 +23,11 @@ const Question = (props) => {
 
             <div className='lg:flex md:flex justify-between w-full'>
                 <p className='lg:text-xl md:text-xl w-12/12 my-2'>{question.replace(/(<([^>]+)>)/ig, '')}</p>
-                <p className='flex items-center'> Ans: <EyeIcon onClick={() => toast(correctAnswer)} className='w-6 cursor-pointer ml-2 lg:mr-3 md:mr-3' ></EyeIcon></p>
+                <p className='flex items-center'>Ans: <EyeIcon onClick={() => toast(correctAnswer)} className='w-6 cursor-pointer ml-2 lg:mr-3 md:mr-3' ></EyeIcon></p>
             </div>
             <div className="text-xl p-2 grid lg:grid-cols-2 md:lg:grid-cols-2 gap-3 text-left">
                 {
-                    options.map(option =>
+                    options.map(option=>
                         <div className='text-left bg-slate-800 rounded-lg hover:bg-slate-600'>
                             <label className='ml-4 p-3 block text-xs md:text-base w-full' htmlFor={option}>
                                 <input onClick={(e)=>handleGetValue(e.target.value)} type="radio" name="option" className='mr-2' value={option} id={option} />

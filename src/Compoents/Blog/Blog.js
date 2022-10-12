@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div>
-            <div className="blog my-10 w-3/4 mx-auto text-justify border p-4 border-green-300 rounded-lg hover:shadow-[5px_5px_60px_8px_rgba(111,255,0,0.3)]">
+            <div className="blog my-10 lg:w-3/4 md:w-3/4 sm:11/12 mx-auto text-justify border p-4 border-green-300 rounded-lg hover:shadow-[5px_5px_60px_8px_rgba(111,255,0,0.3)]">
                 <h2 className='text-2xl'>What is the purpose of react router ?</h2>
                 <p className='my-3 text-lg'>
                     <span className='underline mr-2'>Answer:</span>
@@ -12,7 +12,7 @@ const Blog = () => {
                     the UI in sync with the URL.
                 </p>
             </div>
-            <div className="blog my-10 w-3/4 mx-auto text-justify border p-4 border-green-300 rounded-lg hover:shadow-[5px_5px_60px_8px_rgba(111,255,0,0.3)]">
+            <div className="blog my-10 lg:w-3/4 md:w-3/4 sm:11/12 mx-auto text-justify border p-4 border-green-300 rounded-lg hover:shadow-[5px_5px_60px_8px_rgba(111,255,0,0.3)]">
                 <h2 className='text-2xl'>How does context api work ?</h2>
                 <p className='my-3 text-lg'>
                     <span className='underline mr-2'>Answer:</span>
@@ -21,7 +21,7 @@ const Blog = () => {
                     and so on. Context is also touted as an easier, lighter approach to state management using Redux.
                 </p>
             </div>
-            <div className="blog my-10 w-3/4 mx-auto text-justify border p-4 border-green-300 rounded-lg hover:shadow-[5px_5px_60px_8px_rgba(111,255,0,0.3)]">
+            <div className="blog my-10 lg:w-3/4 md:w-3/4 sm:11/12 mx-auto text-justify border p-4 border-green-300 rounded-lg hover:shadow-[5px_5px_60px_8px_rgba(111,255,0,0.3)]">
                 <h2 className='text-2xl'>What is useref in react ?</h2>
                 <p className='my-3 text-lg'>
                     <span className='underline mr-2'>Answer:</span>

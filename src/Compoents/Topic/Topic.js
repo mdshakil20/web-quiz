@@ -9,8 +9,10 @@ const Topic = (props) => {
             <img className='' src={logo} alt="" />
             <h2 className='my-2'>{name}</h2>
             <p className='mb-3'>Total Quix: {total}</p>
+
             <Link to={`/quiz/${id}`} className='border border-green-400  rounded-lg  my-5 hover:bg-green-400
                 hover:text-black px-10 py-1 '>Start Quiz</Link>
+            
         </div>
     );
 };

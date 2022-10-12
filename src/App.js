@@ -1,5 +1,5 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Link, RouterProvider } from 'react-router-dom';
 import Home from './Compoents/Home/Home';
 import Main from './layout/Main';
 import Topics from './Compoents/Topics/Topics';
@@ -41,8 +41,12 @@ function App() {
         },
         {
           path: '*',
-          element: <div className='text-center text-4xl'>Nothing is found in this router.</div>
-        }
+          element: <div className='text-center'>
+            <p className='my-12 text-4xl'>Nothing is found in this router.</p>
+            <Link className='text-link my-24' to='/'>Go to Home</Link>
+            </div>
+        },
+
       ]
     }
   ]);

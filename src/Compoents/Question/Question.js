@@ -27,9 +27,11 @@ const Question = (props) => {
             <div className="text-xl p-2 grid lg:grid-cols-2 md:lg:grid-cols-2 gap-3 text-left">
                 {
                     options.map(option =>
-                        <div className='p-2 text-left bg-slate-800 p-3 rounded-lg hover:bg-slate-600'>
-                            <input onClick={(e) => handleGetValue(e.target.value)} type="radio" name="option" className='' value={option} id={option} />
-                            <label className='ml-4 text-xs md:text-base w-full' htmlFor={option}>{option}</label>
+                        <div className='text-left bg-slate-800 rounded-lg hover:bg-slate-600'>
+                            <label className='ml-4 p-3 block text-xs md:text-base w-full' htmlFor={option}>
+                                <input onClick={(e) => handleGetValue(e.target.value)} type="radio" name="option" className='mr-2' value={option} id={option} />
+                                {option}
+                            </label>
                             <ToastContainer
                                 position="top-right"
                                 autoClose={3000}
@@ -44,6 +46,3 @@ const Question = (props) => {
 };
 
 export default Question;
-
-
-        // 

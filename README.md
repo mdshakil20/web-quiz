@@ -13,6 +13,7 @@ What is done in this project:
 
 
 Features of the projects: 
+
 1.This is a Signle Page Website
 2. A user can easily take a quiz. It will show a toast to inform whether the result is right or wrong.
 3. If a user doesn't know the answer, they can see the answer by clicking the eye icon.

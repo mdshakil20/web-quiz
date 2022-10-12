@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav>
-            <div className="logo">
+        <nav className=''>
+            <div className="logo site_name">
                 <Link className='text-link' to='/'>Web Quiz</Link>
             </div>
             <div className="nav_item">

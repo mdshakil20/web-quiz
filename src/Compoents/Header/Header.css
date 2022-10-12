@@ -17,6 +17,7 @@ nav {
 
 .text-link:hover {
     background-color: rgba(4, 255, 0, 0.246);
+    border-radius: 10px;
 
 }
 

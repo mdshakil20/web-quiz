@@ -31,8 +31,8 @@ const Question = (props) => {
                 {
                     options.map(option =>
                         <div className='p-2 text-left bg-slate-800 p-3 rounded-lg hover:bg-slate-600'>
-                            <input onClick={(e) => handleGetValue(e.target.value)} type="radio" name="option" value={option} id={option} />
-                            <label className='ml-4 text-xs md:text-base' htmlFor={option}>{option}</label>
+                            <input onClick={(e) => handleGetValue(e.target.value)} type="radio" name="option" className='' value={option} id={option} />
+                            <label className='ml-4 text-xs md:text-base w-full' htmlFor={option}>{option}</label>
                             <ToastContainer
                                 position="top-right"
                                 autoClose={3000}

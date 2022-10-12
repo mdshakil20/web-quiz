@@ -44,7 +44,7 @@ function App() {
           element: <div className='text-center'>
             <p className='my-12 text-4xl'>Nothing is found in this router.</p>
             <Link className='text-link my-24' to='/'>Go to Home</Link>
-            </div>
+          </div>
         },
 
       ]

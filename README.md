@@ -6,9 +6,9 @@ Live Project Link:- https://webquiz2.netlify.app/
 Developed by:- Md. Shamiul Islam Shakil
 
 What is done in this project:
-1. Here we used ReactJS as a framework.
+1. Here I used ReactJS as a framework.
 2. The react router is used to add some quiz topics.
-3. A chat is included.
+3. A line chart is included.
 4. Have some important questions and answers in a blog.
 
 

@@ -1,6 +1,7 @@
 
 Project name:- Web Quiz
-Live Priject Link:- https://webquiz2.netlify.app/
+
+Live Project Link:- https://webquiz2.netlify.app/
 
 Developed by:- Md. Shamiul Islam Shakil
 
